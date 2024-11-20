@@ -8,6 +8,8 @@ const Super = () => {
     <thead>
       <tr>
         <th>A</th>
+
+        
       </tr>
     </thead>
     <tbody>

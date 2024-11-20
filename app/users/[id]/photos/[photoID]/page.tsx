@@ -6,7 +6,7 @@ interface Props {
 
 const PhotoPage = ({params: {id, photoId} }: Props) => {
   return (
-    <div>PhotoPage {id} {photoId} </div>
+    <div>PhotoPage {id} {photoId}</div>
   )
 }
 
