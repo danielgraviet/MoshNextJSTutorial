@@ -22,7 +22,6 @@ const UserTable = async ({sortOrder}: Props) => {
 
   return (
     <>
-    <h1>Users:</h1>
     <table className="table table-bordered">
       <thead>
         <tr>
