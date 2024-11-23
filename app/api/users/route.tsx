@@ -1,0 +1,16 @@
+// GET - getting data
+// POST - creating data
+// PUT - updating data 
+
+import { NextRequest, NextResponse } from "next/server";
+
+export function GET(request: NextRequest) {
+    // fetch users from a data base. 
+    return NextResponse.json(
+        [
+            {id: 1, name: "Mosh"},
+            {id: 2, name: "Dan"},
+            {id: 3, name: "Scott"}
+        ]
+    );
+}
