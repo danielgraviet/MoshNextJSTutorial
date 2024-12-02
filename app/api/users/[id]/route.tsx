@@ -4,7 +4,7 @@ import prisma from "@/prisma/client";
 
 export async function GET(request: NextRequest,
     {params}: {params: {id: string}}) {
-        const user = prisma.user.findUnique({
+        const user = await prisma.user.findUnique({
             where: { id: parseInt(params.id)}
         })
         // fetch data from a db
