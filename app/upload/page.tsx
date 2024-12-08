@@ -1,7 +1,8 @@
 'use client'
 import React from 'react'
 import { CldUploadWidget } from 'next-cloudinary'
-const UploadPage = () => {
+
+const UploadImage = () => {
   return (
     <CldUploadWidget uploadPreset='ntqfcqu8'>
         {({open}) => <button
@@ -12,4 +13,4 @@ const UploadPage = () => {
   )
 }
 
-export default UploadPage
+export default UploadImage
